@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf'), format('oppentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap');
+
+body{
+    background-color: #84E1AD;
+    margin: auto;
+}
+
+header{
+    height: 200px;
+    background-image: linear-gradient(to top,#1C643B 10%, #38CA79 100%);
+    text-align: center;
+    color: white;
+    font-family: "Cabin", sans-serif;
+    padding-top: 3px;
+    box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.459);
+}
+
+header > h1{
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+header > p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+header > nav{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.principal{
+    width: 850px;
+    background-color: white;
+    margin: auto;
+    margin-top: -20px;
+    box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.295);
+}
+
+main > h1{
+    color: #1C643B;
+    font-family: 'idroid', Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.paragrafo{
+    font-family: 'cabin';
+    font-weight: normal;
+    font-size: 14px;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+    clear: both;
+}
+
+.subtitulo{
+    width: 750px;
+    height: 20px;
+    background-color: #c6fddd;
+    color: #1C643B;
+    font-family: 'idroid', Times, serif;
+    font-weight: 100;
+    font-size: 20px;
+    padding-left: 5px;
+    margin-left: 10px;
+}
+
+.midia{
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+div#video{
+    background-color: #1C643B;
+}
+
+section{
+    background-color: #C5EBD6;
+    margin: 10px;
+}
+
+.extra{
+    background-color: #C5EBD6;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.295);
+}
+
+h3{
+    background-color: #2FA866;
+    padding: 10px;
+    font-family: 'cabin';
+    color: white;
+    font-size: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.lista1{
+    font-family: 'cabin';
+    float:left;
+    font-size: 14px;
+}
+
+.lista2{
+    font-family: 'cabin';
+    float:left;
+    font-size: 14px;
+    margin-left: 200px;
+}
+
+
+ul > li:before{
+    content: '✓';
+    padding: 5px;
+}
+
+div#clear{
+    clear: both;
+}
+
+p#indent{
+    margin: 10px;
+}
+
+span#android{
+    color: #1C643B;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #1C643B;
+    color: white;
+    margin: auto;
+    font-family: 'cabin';
+    text-align: center;
+}
+
+footer > p{
+    margin: auto;
+    font-family: 'cabin', Arial, sans-serif;
+    font-weight: 900;
+}
+
+span.frufru{
+    font-weight: 100;
+}
+
+

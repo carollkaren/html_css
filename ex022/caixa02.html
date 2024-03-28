@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 0;
+        }
+
+        header{
+            width: 1200px;
+            height: 200px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        .images{
+            width: 50px;
+            height: 50px;
+            float: left;
+        }
+
+        div > h1{
+            width: 500px;
+            height: 100px;
+            margin-left: 100px;
+            margin-top: 25px;
+            float: left;
+        }
+
+        nav{
+            background-color: rgb(146, 146, 146);
+            padding: 4px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.164);
+            margin-top: 170px;
+            margin-left: 5px;
+        }
+
+
+        .name{
+            width: 50px;
+            height: 50px;
+            float: left;
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        #assuntos{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(148, 147, 147);
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.233);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0;
+        }
+
+        footer > p{
+            margin: 0;
+        }
+
+        div > img{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="images">
+            <img src="images/1703184263098.jpeg" alt="">
+        </div>
+            <div class="name">
+                <h1>Meu Site</h1>
+                </div>
+            </div>
+        
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">Política Saúde Tecnologia</section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eveniet. Delectus officiis ipsum quos in tempora, quasi unde possimus excepturi fugit vel commodi placeat incidunt, iure voluptates? Tenetur, nam magni.</p>
+                <aside>Artigo escrito por José da Luz</aside>
+            </article>
+            <article></article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoEmVideo</p>
+    </footer>
+</body>
+</html>
