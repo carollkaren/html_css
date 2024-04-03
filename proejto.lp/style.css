@@ -10,6 +10,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@media screen and (min-width: 640px) {
+    header nav{
+        display: block;
+        text-align: center;
+    }
+
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+}
+
 :root{
     --cor-principal: #ED4D1B;
     --cor-secundaria: #FF9A3C;
@@ -85,9 +99,6 @@ h2{
 
 }
 
-p{
-    text-align: justify;
-}
 
 .secao01 p{
     font-size: 1.25rem;
@@ -98,12 +109,95 @@ p{
     position: relative;
 }
 
-.secao01.button::after{
+.secao01 .button::after{
     content: '';
     background-image: url('imagens/arrow-curve.svg');
     position: absolute;
+    margin-top: 60px;
     height: 48px;
     width: 132px;
+}
+
+.decoracao{
+    display: block;
+    position: relative;
+}
+
+.decoracao::after {
+    contain: '';
+    background-image: url('imagens/three-dashes.svg');
+    position: absolute;
+    height: 36px;
+    width: 40px;
+}
+
+.cursos{
+    padding-bottom: 5rem;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:1.25rem;
+    margin-top: -8rem;
+    margin-bottom: 4rem;
+}
+
+article {
+    background-color: var(--cor-principal);
+    border: 2px solid var(--cor-preta);
+    box-shadow: 4px 4px 0 var(--cor-preta);
+    max-width: 17rem;
+    padding: 2rem 0 0 2rem;
+}
+
+article:nth-child(2n){
+    align-self: end;
+    background-color: var(--cor-secundaria);
+}
+
+article strong{
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+article a{
+    display: block;
+    margin: 3rem 0 0 auto;
+    width: fit-content;
+}
+
+h2{
+    text-align: center;
+}
+
+
+footer{
+    border-bottom: 0;
+    padding: 1rem 1.25rem 4rem;
+}
+
+footer nav a {
+    display: block;
+    margin: 10px 0 10px 0;
+}
+
+label{
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--cor-principal);
+    margin-bottom: 5px;
+}
+
+input{
+    border: 2px solid var(--cor-preta);
+    box-shadow: 4px 4px 0 var(--cor-preta);
+    font-size: 1.5rem;
+    padding: .5rem;
+    width: 100%;
 }
 
 .mt-1{
@@ -128,5 +222,5 @@ p{
 }
 
 span{
-    color:var(--cor-principal) ;
+    color:var(--cor-principal);
 }
