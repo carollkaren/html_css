@@ -76,7 +76,7 @@ nav{
 
 .box-btn-action{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 button, .link-action{
@@ -127,6 +127,7 @@ section{
 h1{
     font-size: 4rem;
     color: var(--quar);
+    line-height: 70px;
 
 }
 
