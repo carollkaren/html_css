@@ -8,3 +8,5 @@ Projetos criados:
 <a href= "https://carollkaren.github.io/html_css/projeto.tutorial/android.html" tagert='blank_'>Site Responsivo</a>
 
 <a href= "https://carollkaren.github.io/html_css/cordel/index.html" tagert='blank_'>Projeto Cordel</a>
+
+<a href= "https://carollkaren.github.io/html_css/lp.carolkaren/home.html" tagert='blank_'>Landing Page Carol Karen</a>
