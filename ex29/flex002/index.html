@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+
+        div.container-row{
+            background-color: lightsalmon;
+            margin-bottom: 5px;
+            
+            display: flex;
+            flex-direction: row;
+        }
+
+        div.container-row-reverse{
+            background-color: lightsalmon;
+            margin-bottom: 5px;
+            
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        div.container-column{
+            background-color: lightsalmon;
+            margin-bottom: 5px;
+            
+            display: flex;
+            flex-direction: column;
+        }
+
+        div.container-column-reverse{
+            background-color: lightsalmon;
+            margin-bottom: 5px;
+            
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+
+        div.item{
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container-row">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <p>&#x2193 CROSS - AXIS </p>
+    </div>
+    <p> main start---------------------------------------------------------------------------------------------------------------------------------------------> MAIN - AXIS/main end</p>
+
+    <div class="container-row-reverse">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <p>&#x2193 CROSS - AXIS </p>
+    </div>
+    <p>MAIN-AXIS/main end<------------------------------------------------------------------------------------------------------------------------------------------------main start</p>
+
+    <div class="container-column">
+        <p>&#x2193 MAIN - AXIS </p>
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+    <p> cross start---------------------------------------------------------------------------------------------------------------------------------------------> CROSS - AXIS/cross end</p>
+
+    <div class="container-column-reverse">
+        <p>&#x2191 MAIN - AXIS </p>
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+    <p> cross start---------------------------------------------------------------------------------------------------------------------------------------------> CROSS - AXIS/cross end</p>
+</body>
+</html>
