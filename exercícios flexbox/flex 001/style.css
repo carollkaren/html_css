@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightcoral;
+}
+
+header{
+    background-color: aqua;
+}
+
+nav{
+    background-color: black;
+    padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+li{
+    margin: 0 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+@media screen and (max-width: 772px){
+    li{
+        margin: 10px;
+    }
+}

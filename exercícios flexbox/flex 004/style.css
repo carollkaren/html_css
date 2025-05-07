@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightcoral;
+}
+
+main#container{
+    background-color: aqua;
+    height: 50vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+div.item{
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+div#item01{
+    align-self: flex-start;
+}
+
+div#item02{
+    align-self: center;
+}
+
+
+div#item03{
+    align-self: flex-end;
+}
