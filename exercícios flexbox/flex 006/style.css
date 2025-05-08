@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightcoral;
+}
+
+.container{
+    background-color: aqua;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.item{
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 60px;
+    flex: auto;
+    flex-basis: 200px;
+    text-align: center;
+}
+
+#item1{
+    flex-shrink: 1;
+    flex-grow: 2;
+}
+
+#item2{
+    flex-shrink: 5;
+    flex-grow: 1;
+}
+
+#item3{
+    flex-shrink: 3;
+    flex-grow: 0;
+}
