@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*CONFIGURAÇÃO PRINCIPAL*/
+
 *{
     margin: 0;
     padding: 0;
@@ -26,13 +28,14 @@ header{
 }
 
 header h1{
-    border: 1px dotted black;
-    flex: 0 0 200px
+    /*border: 1px dotted black;*/
+    flex: 0 0 200px;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.233);
     /*NÃO CRESCE E NÃO ENCOLHE - GROW | SHRINK | BASIS*/
 }
 
 header nav{
-    border: 1px dotted black;
+   /* border: 1px dotted black;*/
     
     display: flex;
     flex-flow: row wrap;
